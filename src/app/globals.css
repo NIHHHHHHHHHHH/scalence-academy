@@ -3,36 +3,39 @@
 @theme {
 
   /* brand colors  */
-  --color-primary:        #C41230;
-  --color-primary-dark:   #A50E28;
-  --color-primary-light:  #FDE8EC;
-  --color-secondary:      #1A1A2E;
+  --color-primary:#C41230;
+  --color-primary-dark:#A50E28;
+  --color-primary-light:#FDE8EC;
+  --color-secondary:#1A1A2E;
   --color-secondary-light:#F0EFE9;
-  --color-accent:         #E8D5B0;
-  --color-accent-dark:    #C9B48A;
-  --color-success:        #16A34A;
-  --color-urgent:         #DC2626;
+  --color-accent:#E8D5B0;
+  --color-accent-dark:#C9B48A;
+  --color-success:#16A34A;
+  --color-urgent:#DC2626;
 
   /* backgrounds */
-  --color-bg:             #FFFDF9;
-  --color-surface:        #FBF8F2;
-  --color-surface-2:      #F5F0E8;
+  --color-bg:#FFFDF9;
+  --color-surface:#FBF8F2;
+  --color-surface-2:#F5F0E8;
 
   /* text */
-  --color-text:           #1A1A2E;
-  --color-text-muted:     #6B7280;
-  --color-text-faint:     #9CA3AF;
+  --color-text:#1A1A2E;
+  --color-text-muted:#6B7280;
+  --color-text-faint:#9CA3AF;
 
   /* border */
-  --color-border:         #EDE8DF;
-  --color-border-red:     #F5C6CF;
+  --color-border:#EDE8DF;
+  --color-border-red:#F5C6CF;
 
   /* footer */
-  --color-footer-bg:      #1A1A2E;
+  --color-footer-bg:#1A1A2E;
 
   /* font families */
-  --font-montserrat: var(--font-montserrat), sans-serif;
-  --font-nunito:     var(--font-nunito), sans-serif;
+  --font-montserrat:var(--font-montserrat), sans-serif;
+  --font-nunito:var(--font-nunito), sans-serif;
+
+   /* custom breakpoint */
+  --breakpoint-xs: 25rem; 
 }
 
 @layer base {
@@ -49,6 +52,35 @@
   h1 {
     font-family: var(--font-montserrat), sans-serif;
     color: var(--color-text);
+  }
+}
+
+
+
+@layer utilities {
+  .font-display { font-family: var(--font-montserrat), sans-serif; }
+  .font-body    { font-family: var(--font-nunito), sans-serif; }
+
+  .container-xl {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  @media (min-width: 640px)  { .container-xl { padding-left: 2rem;  padding-right: 2rem;  } }
+  @media (min-width: 1024px) { .container-xl { padding-left: 3rem;  padding-right: 3rem;  } }
+
+   /* gradient - red to dark */
+  .gradient-primary {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  }
+
+  .gradient-primary-text {
+    background: linear-gradient(135deg, var(--color-primary), #FF4D6D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
 }
