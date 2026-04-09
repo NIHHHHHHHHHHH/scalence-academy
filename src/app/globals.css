@@ -49,10 +49,20 @@
     overflow-x: hidden;
   }
 
-  h1 {
+   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-montserrat), sans-serif;
     color: var(--color-text);
   }
+
+  ::selection {
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+  }
+
+  ::-webkit-scrollbar        { width: 6px; }
+  ::-webkit-scrollbar-track  { background: var(--color-surface); }
+  ::-webkit-scrollbar-thumb  { background: var(--color-primary); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--color-primary-dark); }
 }
 
 
@@ -81,6 +91,54 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+  
+  /* section badge  */
+  .section-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--color-primary);
+    color: white;
+    font-family: var(--font-montserrat), sans-serif;
+    font-weight: 800;
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.9rem;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
+    margin-bottom: 1rem;
+  }
+
+  /* tags  */
+  .tag-dark {
+    background: var(--color-secondary);
+    color: white;
+    font-family: var(--font-montserrat), sans-serif;
+    font-weight: 700;
+    font-size: 0.65rem;
+    padding: 0.2rem 0.65rem;
+    border-radius: 0.2rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+   /* ticker */
+  @keyframes ticker {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .ticker-scroll { animation: ticker 28s linear infinite; }
+  .ticker-scroll:hover { animation-play-state: paused; }
+
+    /* geo pattern */
+    
+  .geo-pattern {
+    background-image:
+      radial-gradient(circle at 15% 15%, rgba(196,18,48,0.06) 0%, transparent 50%),
+      radial-gradient(circle at 85% 85%, rgba(196,18,48,0.04) 0%, transparent 50%),
+      radial-gradient(circle at 50% 50%, rgba(232,213,176,0.08) 0%, transparent 60%);
   }
 
 }
