@@ -93,6 +93,9 @@
     background-clip: text;
   }
 
+   .section-py { padding-top: 5rem; padding-bottom: 5rem; }
+  @media (min-width: 1024px) { .section-py { padding-top: 7rem; padding-bottom: 7rem; } }
+
   
   /* section badge  */
   .section-badge {
@@ -110,6 +113,35 @@
     clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
     margin-bottom: 1rem;
   }
+  
+   .section-badge-light {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    font-family: var(--font-montserrat), sans-serif;
+    font-weight: 800;
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.9rem;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
+    margin-bottom: 1rem;
+  }
+
+    /* card */
+  .card-paper {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+  }
+  .card-paper:hover {
+    box-shadow: 0 8px 32px rgba(196, 18, 48, 0.1);
+    transform: translateY(-4px);
+    border-color: var(--color-border-red);
+  }
 
   /* tags  */
   .tag-dark {
@@ -121,6 +153,18 @@
     padding: 0.2rem 0.65rem;
     border-radius: 0.2rem;
     letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .tag-red {
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    font-family: var(--font-montserrat), sans-serif;
+    font-weight: 800;
+    font-size: 0.65rem;
+    padding: 0.2rem 0.65rem;
+    border-radius: 0.2rem;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
   }
 
