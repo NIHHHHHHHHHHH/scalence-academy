@@ -178,3 +178,64 @@ export const daySchedule = [
   { time: "7:00 PM", title: "Evening Revision", desc: "Consolidation + next day prep", icon: "moon"},
   { time: "9:00 PM", title: "Institute Closes", desc: "Structured day ends. Rest well.", icon: "door"},
 ];
+
+
+export const testimonials = [
+  { 
+    id: 1,
+    quote: "I went from 45% to AIR 847 in one year. The faculty here doesn't let you settle.",
+    name: "Aditya Phadke",
+    detail: "IIT Bombay CSE",
+    audience: "student",
+    initials: "AP" 
+  },
+  { id: 2,
+    quote: "Small batch meant my doubts never piled up. Best academic decision I ever made.",
+    name: "Sneha Kulkarni",
+    detail: "AIIMS Delhi",
+    audience: "student",
+    initials: "SK"
+  },
+  { id: 3,
+    quote: "Their mock tests are harder than NEET itself. My daughter was fully prepared.",
+    name: "Mrs. Nair",
+    detail: "Parent, Pune",
+    audience: "parent",
+    initials: "MN"
+  },
+  { id: 4,
+    quote: "After failing once, the dropper batch turned everything around. IIT Delhi happened.",
+    name: "Mr. Desai",
+    detail: "Parent, Pune",
+    audience: "parent",
+    initials: "MD"
+  },
+   { id: 5,
+    quote: "The daily practice sheets and doubt sessions helped me stay consistent. Cracked JEE Advanced with confidence.",
+    name: "Rohan Mehta",
+    detail: "IIT Kanpur ECE",
+    audience: "student",
+    initials: "RM"
+  },
+  { id: 6,
+    quote: "Concept clarity here is unmatched. I finally started enjoying Physics and scored 680+ in NEET.",
+    name: "Pooja Sharma",
+    detail: "MBBS, GMC Mumbai",
+    audience: "student",
+    initials: "PS"
+  },
+  { id: 7,
+    quote: "The personal attention given to each student is impressive. My son became much more disciplined.",
+    name: "Mr. Joshi",
+    detail: "Parent, Mumbai",
+    audience: "parent",
+    initials: "MJ"
+  },
+  { id: 8,
+    quote: "Regular feedback and performance tracking kept us informed. We always knew where our child stood.",
+    name: "Mrs. Kapoor",
+    detail: "Parent, Navi Mumbai",
+    audience: "parent",
+    initials: "MK"
+  },
+];
