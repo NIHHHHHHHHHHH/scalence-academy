@@ -165,3 +165,16 @@ export const whyUs = [
   { id: 5, num: "05", title: "Exclusive Study Material", desc: "Developed in-house, updated every year for exact exam relevance." },
   { id: 6, num: "06", title: "Monthly Parent Reports", desc: "Parents are partners. Progress shared monthly. No surprises." },
 ];
+
+
+export const daySchedule = [
+  { time: "7:00 AM", title: "Morning Assembly", desc: "Goal setting + motivation session", icon: "sunrise"},
+  { time: "8:00 AM", title: "Core Subject Lecture", desc: "Physics / Chemistry / Biology - 2 hrs", icon: "flask"},
+  { time: "10:00 AM", title: "Mathematics", desc: "Problem solving + concept building", icon: "compass"},
+  { time: "12:00 PM", title: "Lunch + Self Study", desc: "Rest, revision, independent practice", icon: "book"},
+  { time: "2:00 PM", title: "Worksheet Session", desc: "Practice problems + numerical solving", icon: "pencil"},
+  { time: "4:00 PM", title: "Mock Test / PYQ", desc: "Timed exam simulation", icon: "timer"},
+  { time: "6:00 PM", title: "Doubt Clearing", desc: "One-on-one with faculty - 1 hr", icon: "chat"},
+  { time: "7:00 PM", title: "Evening Revision", desc: "Consolidation + next day prep", icon: "moon"},
+  { time: "9:00 PM", title: "Institute Closes", desc: "Structured day ends. Rest well.", icon: "door"},
+];

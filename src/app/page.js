@@ -3,6 +3,7 @@ import ResultsWall from "@/components/ResultsWall";
 import Hero from "@/components/Hero";
 import ExamSelector from "@/components/interactive/ExamSelector";
 import WhyUs from "@/components/WhyUs";
+import DayTimeline from "@/components/interactive/DayTimeline";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <ExamSelector />
       <WhyUs />
+      <DayTimeline />
     </>
   );
 }
