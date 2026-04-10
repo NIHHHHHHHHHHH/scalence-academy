@@ -156,3 +156,12 @@ export const faculty = [
   { id: 4, name: "Dr. Meena Rao",subject: "Biology",qual: "AIIMS Graduate",exp: "12 Yrs", examTags: ["NEET"],initials: "MR" },
 ];
 
+
+export const whyUs = [
+  { id: 1, num: "01", title: "IIT / AIIMS Alumni Faculty", desc: "Taught by those who cracked it. Real strategies, real insight - not just theory." },
+  { id: 2, num: "02", title: "Max 35 Students Per Batch", desc: "Every student gets direct attention. No one gets lost in the crowd." },
+  { id: 3, num: "03", title: "Weekly Mock Tests", desc: "Every Saturday - harder than the real exam. Students are battle-ready." },
+  { id: 4, num: "04", title: "Daily Doubt Sessions", desc: "One hour every evening. No question goes unanswered, ever." },
+  { id: 5, num: "05", title: "Exclusive Study Material", desc: "Developed in-house, updated every year for exact exam relevance." },
+  { id: 6, num: "06", title: "Monthly Parent Reports", desc: "Parents are partners. Progress shared monthly. No surprises." },
+];

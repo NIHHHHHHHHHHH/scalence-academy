@@ -130,6 +130,22 @@
     margin-bottom: 1rem;
   }
 
+    .section-badge-cream {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--color-accent);
+    color: var(--color-secondary);
+    font-family: var(--font-montserrat), sans-serif;
+    font-weight: 800;
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.9rem;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
+    margin-bottom: 1rem;
+  }
+
     /* card */
   .card-paper {
     background: white;

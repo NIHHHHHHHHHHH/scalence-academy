@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import ResultsWall from "@/components/ResultsWall";
 import Hero from "@/components/Hero";
 import ExamSelector from "@/components/interactive/ExamSelector";
+import WhyUs from "@/components/WhyUs";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <ResultsWall />
       <Hero />
       <ExamSelector />
+      <WhyUs />
     </>
   );
 }
