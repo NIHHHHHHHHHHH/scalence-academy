@@ -77,7 +77,14 @@ export const examOptions = [
 ];
 
 
+export const badges = ["Max 35 Per Batch", "IIT / AIIMS Faculty", "Daily Doubt Sessions", "Weekly Mock Tests"];
 
+export const achievementCards = [
+  { rank: "AIR 847", sub: "JEE Advanced 2024", initials: "AP", top: "8%", left: "0%"  },
+  { rank: "712 / 720", sub: "NEET 2023", initials: "SK", top: "5%", right: "2%" },
+  { rank: "99.8 Percentile", sub: "MHT-CET 2024", initials: "PS", bottom: "10%",left: "5%"  },
+  { rank: "AIR 234", sub: "JEE Advanced 2023", initials: "RD", bottom: "12%",right: "0%" },
+];
 
 export const courses = [
   { 
