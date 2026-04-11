@@ -239,3 +239,12 @@ export const testimonials = [
     initials: "MK"
   },
 ];
+
+
+
+export const batches = [
+  { id: 1, name: "JEE 2027", type: "2 Year", examTag: "JEE", startDate: "June 2, 2026", totalSeats: 35, filledSeats: 23 },
+  { id: 2, name: "NEET 2027", type: "2 Year", examTag: "NEET", startDate: "June 2, 2026", totalSeats: 35, filledSeats: 27 },
+  { id: 3, name: "Dropper JEE/NEET", type: "1 Year", examTag: "JEE+NEET", startDate: "April 7, 2026", totalSeats: 35, filledSeats: 30 },
+  { id: 4, name: "MHT-CET Crash",type: "3 Months", examTag: "MHT-CET", startDate: "Feb 10, 2026", totalSeats: 35, filledSeats: 32 },
+];

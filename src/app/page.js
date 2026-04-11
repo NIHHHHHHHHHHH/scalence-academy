@@ -5,6 +5,7 @@ import ExamSelector from "@/components/interactive/ExamSelector";
 import WhyUs from "@/components/WhyUs";
 import DayTimeline from "@/components/interactive/DayTimeline";
 import AudienceToggle from "@/components/interactive/AudienceToggle";
+import SeatGrid from "@/components/interactive/SeatGrid";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyUs />
       <DayTimeline />
       <AudienceToggle />
+      <SeatGrid />
     </>
   );
 }
