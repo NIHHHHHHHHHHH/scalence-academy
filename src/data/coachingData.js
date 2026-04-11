@@ -14,6 +14,9 @@ export const instituteInfo = {
   yearsActive: "14+",
   maxBatchSize: 35,
   selectionRate: "94%",
+  whatsapp: "https://wa.me/919876000000",
+  director: "Dr. Suresh Kulkarni",
+  directorQual: "IIT Bombay Alumni · 22 Years Teaching",
 };
 
 export const toppers = [
@@ -247,4 +250,15 @@ export const batches = [
   { id: 2, name: "NEET 2027", type: "2 Year", examTag: "NEET", startDate: "June 2, 2026", totalSeats: 35, filledSeats: 27 },
   { id: 3, name: "Dropper JEE/NEET", type: "1 Year", examTag: "JEE+NEET", startDate: "April 7, 2026", totalSeats: 35, filledSeats: 30 },
   { id: 4, name: "MHT-CET Crash",type: "3 Months", examTag: "MHT-CET", startDate: "Feb 10, 2026", totalSeats: 35, filledSeats: 32 },
+];
+
+
+
+export const targetExams = [
+  "JEE Main", "JEE Advanced", "NEET UG", "MHT-CET", "Foundation (8-10th)"
+];
+
+
+export const preferredBatches = [
+  "JEE 2027 - June 2026", "NEET 2027 - June 2026", "Dropper Batch - April 2026", "MHT-CET Crash - Feb 2026", "Foundation - June 2026"
 ];

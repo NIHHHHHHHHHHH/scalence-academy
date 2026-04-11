@@ -6,6 +6,7 @@ import WhyUs from "@/components/WhyUs";
 import DayTimeline from "@/components/interactive/DayTimeline";
 import AudienceToggle from "@/components/interactive/AudienceToggle";
 import SeatGrid from "@/components/interactive/SeatGrid";
+import Enrollment from "@/components/Enrollment";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <DayTimeline />
       <AudienceToggle />
       <SeatGrid />
+      <Enrollment />
     </>
   );
 }
